@@ -15,7 +15,7 @@ export class WrapperComponent implements OnInit {
 
   @Input() themeName: any;
 
-  constructor( @SkipSelf() @Optional() public wrapperS?: WrapperS) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
